@@ -5,11 +5,14 @@ import (
 	"os"
 
 	homedir "github.com/mitchellh/go-homedir"
-	"path/filpath"
+
+	"github.com/RedaBourma/task/cmd"
+	"task/cmd"
 )
 
 func main() {
 	home, _ := homedir.Dir()
+	must(cmd.RootCmd.Execute())
 }
 
 func must(err error) {

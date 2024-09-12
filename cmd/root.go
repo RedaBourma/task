@@ -6,5 +6,5 @@ import (
 
 var RootCmd = &cobra.Command{
 	Use:   "task",
-	Short: "Task is a CLI task manager.",
+	Short: "Task is a CLI task manager",
 }

@@ -3,7 +3,6 @@
 ```
 go install .
 ```
-
 Task is a CLI task manager
 
 Usage:
@@ -19,4 +18,4 @@ Available Commands:
 Flags:
   -h, --help   help for task
 
-Use "task [command] --help" for more information about a command
+Use "task [command] --help" for more information about a command.
